@@ -9,11 +9,11 @@ The structure of the projects:
 
 ## My Contributions (Ayush Raj)
 
-On this project I worked across both core tasks and the evaluation pipeline:
+I was a core contributor to this project. My work covered both of its core tasks and the full evaluation pipeline:
 
-- **Fact Checking:** sentence-level classification of summary sentences into the nine factuality-error categories using LLMs.
-- **Keyfact Alignment:** matching each keyfact to the summary sentences it can be inferred from.
-- **Evaluation & Results:** benchmarked multiple LLMs against human judgments; the sentence-level faithfulness evaluation achieved 86.4% balanced accuracy.
+- **Fact Checking:** the task that classifies every summary sentence into one of nine factuality-error categories — the seven factuality errors, "other error", or "no error" — with an LLM-generated reason for each sentence.
+- **Keyfact Alignment:** the task that matches every keyfact to the summary sentences it can be inferred from, producing a binary inferability label and the matched line numbers for each keyfact.
+- **Evaluation & Results:** ran the evaluation across multiple LLMs and benchmarked the results against human judgments. The sentence-level faithfulness evaluation achieved 86.4% balanced accuracy.
 
 ## Highlight
 **FineSurE** is a *multi-dimensional*, *fine-grained* automated evaluation framework for text summarization. It covers there distinctive evaluation dimensions, namely faithfulness, completeness, and conciseness. These dimensions are crucial to assess the capability of modern language models in summarization, as they are susceptible to incorrect statement, information omission, and verbosity.
