@@ -7,9 +7,15 @@ The structure of the projects:
 - reproduce: the code to reproduce the results of FineSurE in Table 1 and Table 2 
 - finesure: the code to run our FineSurE method to evaluate the summary generated from language models
 
-## Highlight
+## My Contributions (Ayush Raj)
 
-**FineSurE** is a *multi-dimensional*, *fine-grained* automated evaluation framework for text summarization. It covers there distinctive evaluation dimensions, namely faithfulness, completeness, and conciseness. These dimensions are crucial to assess the capability of modern language models in summarization, as they are susceptible to incorrect statement, information omission, and verbosity.
+On this project I worked across both core tasks and the evaluation pipeline:
+
+- **Fact Checking:** sentence-level classification of summary sentences into the nine factuality-error categories using LLMs.
+- **Keyfact Alignment:** matching each keyfact to the summary sentences it can be inferred from.
+  - **Evaluation & Results:** benchmarked multiple LLMs against human judgments; the sentence-level faithfulness evaluation achieved 86.4% balanced accuracy.
+
+  ## Highlight*FineSurE** is a *multi-dimensional*, *fine-grained* automated evaluation framework for text summarization. It covers there distinctive evaluation dimensions, namely faithfulness, completeness, and conciseness. These dimensions are crucial to assess the capability of modern language models in summarization, as they are susceptible to incorrect statement, information omission, and verbosity.
 
 FineSurE framework breaks down a complicate evaluation process into ```two simple human-like evaluation tasks``` using LLMs. 
 
