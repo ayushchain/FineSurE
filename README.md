@@ -1,11 +1,6 @@
 # FineSurE: Fine-grained Summarization Evaluation using LLMs
 
-
-
-The structure of the projects:
-- dataset: FRANK and REALSumm (in JSON format) are located in this folder
-- reproduce: the code to reproduce the results of FineSurE in Table 1 and Table 2 
-- finesure: the code to run our FineSurE method to evaluate the summary generated from language models
+**An LLM-based framework for fine-grained evaluation of text summaries** — measuring faithfulness, completeness and conciseness at sentence and summary level. I was a core contributor to this project; my work covered both core tasks and the full evaluation pipeline, and the sentence-level faithfulness evaluation achieved **86.4% balanced accuracy** against human judgments. My detailed contributions are listed below.
 
 ## My Contributions (Ayush Raj)
 
@@ -14,6 +9,11 @@ I was a core contributor to this project. My work covered both of its core tasks
 - **Fact Checking:** the task that classifies every summary sentence into one of nine factuality-error categories — the seven factuality errors, "other error", or "no error" — with an LLM-generated reason for each sentence.
 - **Keyfact Alignment:** the task that matches every keyfact to the summary sentences it can be inferred from, producing a binary inferability label and the matched line numbers for each keyfact.
 - **Evaluation & Results:** ran the evaluation across multiple LLMs and benchmarked the results against human judgments. The sentence-level faithfulness evaluation achieved 86.4% balanced accuracy.
+
+The structure of the projects:
+- dataset: FRANK and REALSumm (in JSON format) are located in this folder
+- reproduce: the code to reproduce the results of FineSurE in Table 1 and Table 2 
+- finesure: the code to run our FineSurE method to evaluate the summary generated from language models
 
 ## Highlight
 **FineSurE** is a *multi-dimensional*, *fine-grained* automated evaluation framework for text summarization. It covers there distinctive evaluation dimensions, namely faithfulness, completeness, and conciseness. These dimensions are crucial to assess the capability of modern language models in summarization, as they are susceptible to incorrect statement, information omission, and verbosity.
