@@ -105,7 +105,15 @@ python reproduce-main-results.py results/frank-result-by-gpt4-w-finesure.json re
 ```
 
 
-## Author
+## Authors
+
+Ayush Raj
+
+Computer Science and Engineering
+
+National Institute of Technology, Patna (NITP)
+
+[Github profile](https://github.com/ayushchain)           [LinkedIn](https://www.linkedin.com/in/ayushchain08)
 
 Adarsh Srivastava
 
@@ -115,6 +123,6 @@ National Institute of Technology, Patna (NITP)
 
 [Github profile](https://github.com/adarsh-2011)           [Linkdin](https://www.linkedin.com/in/adarsh-srivastava-10a783257/)
 
-## contact
+## Contact
 
-For any query please feel free to reach out me at [srivastavaadarsh434@gmail.com](mailto:srivastavaadarsh434@gmail.com)
+For any query please feel free to reach out to me at [ayush08nitp@gmail.com](mailto:ayush08nitp@gmail.com)
