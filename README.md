@@ -8,7 +8,7 @@ I was a core contributor to this project. My work covered both of its core tasks
 
 - **Fact Checking:** the task that classifies every summary sentence into one of nine factuality-error categories — the seven factuality errors, "other error", or "no error" — with an LLM-generated reason for each sentence.
 - **Keyfact Alignment:** the task that matches every keyfact to the summary sentences it can be inferred from, producing a binary inferability label and the matched line numbers for each keyfact.
-- **Evaluation & Results:** ran the evaluation across multiple LLMs and benchmarked the results against human judgments. The sentence-level faithfulness evaluation achieved 86.4% balanced accuracy.
+- **Evaluation & Results:** ran the evaluation across multiple LLMs and benchmarked the results against human judgments. The sentence-level faithfulness evaluation achieved 86.4% balanced accuracy. Across the evaluation work, I conducted 144 experiments across 6 models; the framework's Fixed Faithfulness F1 reached ~0.97.
 
 The structure of the projects:
 - dataset: FRANK and REALSumm (in JSON format) are located in this folder
